@@ -1,7 +1,7 @@
 # Grocery Store Data Analysis
 
 
-**BUSINESS PROBLEM:** 
+**BUSINESS PROBLEM:** How can a grocery store use product reviews and ratings to maximize profit?
 
 ---
 ## Table of Contents
