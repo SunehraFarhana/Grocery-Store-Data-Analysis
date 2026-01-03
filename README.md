@@ -86,7 +86,7 @@ These SQL queries were used to reveal data trends and give guidance towards asse
 ```
 
 
-An in-depth [**SQL file**](https://github.com/SunehraFarhana/Bank-Loan-Data-Analysis/blob/e31313e64fd8a140f01fbd20aa87f4103442902c/bank_loan_queries.sql) detailing every step of the querying process is available in this repository.
+An in-depth [**SQL file**](https://github.com/SunehraFarhana/Grocery-Store-Data-Analysis/blob/fe73ad85b58a864adccbeefbe60aeca58f62452a/grocery_store_queries.sql) detailing every step of the querying process is available in this repository.
 
 ---
 ## Visualizations in Tableau Public
