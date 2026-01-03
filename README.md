@@ -20,8 +20,8 @@ This project analyzes a retail dataset
 ---
 ## Dataset Summary
 The Kaggle dataset can be found [**here**](https://www.kaggle.com/datasets/bhavikjikadara/grocery-store-dataset). 
-* **Size (Before Cleaning):**  rows,  columns
-	* **Size (After Cleaning):**  rows,  columns
+* **Size (Before Cleaning):** 1,757 rows, 8 columns
+	* **Size (After Cleaning):** 1,751 rows, 14 columns
 * **Data:** 
 * **Data:** 
 	* **Feature Engineered Columns:** 
@@ -50,7 +50,7 @@ This dataset had some numerical errors and inconsistent strings, which were corr
 
 ```
 
-An in-depth [**Jupyter Notebook**](https://github.com/SunehraFarhana/Bank-Loan-Data-Analysis/blob/e31313e64fd8a140f01fbd20aa87f4103442902c/bank_loan_dataset_cleaning.ipynb) detailing every step of the data cleaning process is available in this repository.
+An in-depth [**Jupyter Notebook**](https://github.com/SunehraFarhana/Grocery-Store-Data-Analysis/blob/33dda2bd30d74b84559f5c3cf23f72d76fe1c426/grocery_store_dataset_cleaning.ipynb) detailing every step of the data cleaning process is available in this repository.
 
 ---
 ## Exploratory Data Analysis in MySQL Workbench
@@ -90,7 +90,7 @@ An in-depth [**SQL file**](https://github.com/SunehraFarhana/Bank-Loan-Data-Anal
 
 ---
 ## Visualizations in Tableau Public
-The Tableau Public visualizations can be found [**here**](https://public.tableau.com/views/bank_loan_visualizations/Overview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link). The data was organized
+The Tableau Public visualizations can be found [**here**](https://public.tableau.com/views/grocery_store_visualizations/Start?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). The data was organized
 
 
 
