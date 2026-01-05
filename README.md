@@ -1,7 +1,12 @@
 # Grocery Store Data Analysis
+Understanding grocery store data is essential in analyzing consumer behavior, pricing strategies, and product marketing in a highly competitive retail environment. With rising consumer interest in products that claim certain attributes, such as being health conscious or eco-friendly, grocery retailers must closely observe the various characteristics of products in their catalog and its effect on customer ratings, in order to optimize pricing, promotions, and inventory decisions.
 
+Customer loyalty leads to repeat purchases over a long period of time, which creates a consistent cash flow for retail businesses. Product ratings can be used to determine whether consumers generally believe that a product is worth its price, or whether it lives up to its advertised consumer claim.
 
-**BUSINESS PROBLEM:** How can a grocery store use product reviews and ratings to maximize profit?
+**BUSINESS PROBLEM:** How can a grocery store use pricing, customer ratings, and consumer-facing product claims from catalog data in order to make strategic business decisions that optimize customer loyalty? Which product traits tend to receive higher ratings from customers?
+
+* ❌ Lower average rating → Customers are not satisfied with this product → Customers will search elsewhere for this product, or find a different store that regularly meets their needs → **Decrease in revenue**
+* ✅ Higher average rating → Customers are satisfied with product quality → Customers will regularly return to this store to buy more → **Increase in revenue**
 
 ---
 ## Table of Contents
@@ -15,15 +20,15 @@
 
 ---
 ## Project Overview
-This project analyzes a retail dataset 
+This project analyzes a retail dataset to understand how pricing, discounts, ratings, and consumer-facing product claims vary across different product categories. The data was cleaned and feature engineered in Python, then visualized using SQL queries and Tableau dashboards, in order to find business-oriented insights that would aid retail stakeholders in their merchandising and marketing decisions.
 
 ---
 ## Dataset Summary
-The Kaggle dataset can be found [**here**](https://www.kaggle.com/datasets/bhavikjikadara/grocery-store-dataset). Each row represents a product from Costco's online marketplace, and contains information about that product.
+The Kaggle dataset can be found [**here**](https://www.kaggle.com/datasets/bhavikjikadara/grocery-store-dataset). Each row represents a product scraped from Costco's online marketplace, and contains information about that product.
 * **Size (Before Cleaning):** 1,757 rows, 8 columns
 	* **Size (After Cleaning):** 1,751 rows, 14 columns
 * **Retail Data:** Sub Category, Price, Discount, Rating, Title, Currency, Feature, Product Description
-	* **Feature Engineered Columns:** Is Clean Label, Is Eco Friendly, Is Health Conscious, Is High Quality, Is Plant Based, Is Shelf Stable, Has Religious Certification
+	* **Feature Engineered Columns (Binary Flags):** Is Clean Label, Is Eco Friendly, Is Health Conscious, Is High Quality, Is Plant Based, Is Shelf Stable, Has Religious Certification
 
 ‼️ **NOTE:** The "Currency" column was dropped from the dataset during the cleaning process, due to all of its values either being **`$`** or **`NULL`**, and therefore bringing no analytical insight into the data.
 
@@ -327,8 +332,24 @@ The Tableau Public visualizations can be found [**here**](https://public.tableau
 
 ---
 ## Project Insight and Recommendations
-
+After feature-engineering binary columns for product attributes, doing exploratory data analysis, and creating graphic visualizations, the retail data reveals that:
+* **Discounted products have a higher average rating than non-discounted products**.
+	* **1,629 non-discounted products** make up about **93%** of the catalog, and have an average **rating of 4.33**.
+ 	* Whereas, **122 discounted products** make up about **7%** of the catalog, and have an average **rating of 4.58**.
+    * Discounts may reduce profit, but they also increase customer satisfaction and the perceived value of a product, which results in brand trust and long-term loyalty.
+	* ↳ Therefore, the grocery store should **increase targeted discounting, especially during holiday seasons** (e.g. promote 10% off of flowers, candy, and desserts during Valentine's Day, promote 20% off of food products and gift baskets during Christmas and Thanksgiving).
+	* ↳ Also, **increase discounting in the most expensive sub-categories**, which are deli, meat, and seafood products, to reduce purchase hesitation.
+* 
+	* 
+* 
+	* 
+* 
+	* 
+* 
+	* 
+* 
+	* 
 
 ---
 ## Conclusion
-
+This project transformed raw product listings scraped from Costco's online marketpalce into structured insights that inform pricing, marketing, and decision-making strategies in the retail industry. By focusing on customer satisfaction, grocery stores can mantain a growing loyal customer base that trusts their business to provide the products that they need, in good quality and at an affordable price.
