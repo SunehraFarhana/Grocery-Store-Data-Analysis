@@ -1,5 +1,5 @@
 # Grocery Store Data Analysis
-Understanding grocery store data is essential in analyzing consumer behavior, pricing strategies, and product marketing in a highly competitive retail environment. With rising consumer interest in products that claim certain attributes, such as being health conscious or eco-friendly, grocery retailers must closely observe the various characteristics of products in their catalog and its effect on customer ratings, in order to optimize pricing, promotions, and inventory decisions.
+Understanding grocery store data is essential in analyzing consumer behavior, pricing strategies, and product marketing in a highly competitive retail environment. With rising consumer interest in products that claim certain attributes, such as being health-conscious or eco-friendly, grocery retailers must closely observe the various characteristics of products in their catalog and its effect on customer ratings, in order to optimize pricing, promotions, and inventory decisions.
 
 Customer loyalty leads to repeat purchases over a long period of time, which creates a consistent cash flow for retail businesses. Product ratings can be used to determine whether consumers generally believe that a product is worth its price, or whether it lives up to its advertised consumer claim.
 
@@ -333,22 +333,22 @@ The Tableau Public visualizations can be found [**here**](https://public.tableau
 ---
 ## Project Insight and Recommendations
 After feature-engineering binary columns for product attributes, doing exploratory data analysis, and creating graphic visualizations, the retail data reveals that:
-* **Discounted products have a higher average rating than non-discounted products**.
-	* **1,629 non-discounted products** make up about **93%** of the catalog, and have an average **rating of 4.33**.
- 	* Whereas, **122 discounted products** make up about **7%** of the catalog, and have an average **rating of 4.58**.
-    * Discounts may reduce profit, but they also increase customer satisfaction and the perceived value of a product, which results in brand trust and long-term loyalty.
-	* ↳ Therefore, the grocery store should **increase targeted discounting, especially during holiday seasons** (e.g. promote 10% off of flowers, candy, and desserts during Valentine's Day, promote 20% off of food products and gift baskets during Christmas and Thanksgiving).
-	* ↳ Also, **increase discounting in the most expensive sub-categories**, which are deli, meat, and seafood products, to reduce purchase hesitation.
-* 
-	* 
-* 
-	* 
-* 
-	* 
-* 
-	* 
-* 
-	* 
+* 🎁 **1. Discounted products have a higher average rating than non-discounted products**.
+	* **1,629 non-discounted products** make up **93%** of the catalog, and have an average **rating of 4.33**.
+ 	* Whereas, **122 discounted products** make up only **7%** of the catalog, but have an average **rating of 4.58**.
+    * Discounts may initially reduce profit, but they also increase customer satisfaction and the perceived value of a product, which results in brand trust and long-term loyalty.
+		* ↳ Therefore, the grocery store should **increase targeted discounting, especially during holiday seasons** (e.g. promote 10% off of flowers, candy, and desserts during Valentine's Day, promote 20% off of food products and gift baskets during Christmas and Thanksgiving).
+		* ↳ Also, **increase discounting in the most expensive sub-categories**, which are deli, meat, and seafood products, to reduce purchase hesitation.
+* 🌱 **2. Products with clean-label, eco-friendly, and high-quality attributes have generally higher prices, and higher ratings**.
+	* Meaning that customers are willing to pay a higher price for products with these perceived-to-be superior qualities.
+		* ↳ Therefore, the grocery store should **embrace premium positioning for clean-label, eco-friendly, and high-quality products**, marketing them towards customers who would accept a more expensive product in exchange for those valuable attributes.
+* 🛍 **3. Products with none of the designated consumer claims have a 4.27 average rating, whereas products with multiple consumer claims have a 4.33-4.44 average rating**.
+	* Specific groups of consumers want specific products that align with their personal values (e.g. healthy, artisinal, cruelty-free).
+		* ↳ Therefore, the grocery store should **use attribute-based segmentation for merchandising and targeted marketing**, to attract consumers who desire products with these attributes.
+* 🍎 **4. There is a high demand for health-conscious, plant-based, and religiously-certified food products**.
+	* ↳ Therefore, the grocery store should **expand health-conscious, plant-based, and religiously-certified offerings**, to account for growing consumer interest in these product attributes.
+* 🍰 **5. Products in the Bakery & Desserts sub-category have the lowest average rating of 4.09**.
+	* ↳ Therefore, the grocery store should **improve their customers' perception of bakery products, by offering dessert options that are health-conscious, high-quality, or religiously-certified**. This will attract customers who value desserts that meet their quality standards or dietary restrictions, and thus transform this low-rated segment into a more trusted and appealing option.
 
 ---
 ## Conclusion
